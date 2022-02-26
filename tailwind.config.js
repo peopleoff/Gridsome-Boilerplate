@@ -1,3 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
     purge: {
         content: [
@@ -10,8 +13,15 @@ module.exports = {
         ]
     },
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+            },
+        },
     },
     variants: {},
-    plugins: [],
+    plugins: [
+        require("@tailwindcss/forms"),
+        require("@tailwindcss/aspect-ratio"),
+    ],
 }
