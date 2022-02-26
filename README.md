@@ -11,6 +11,8 @@ This starter project includes some of the latest powerful technologies.
 *   **Gridsome -** Vue.js & GraphQL powered framework genrating static files.
 *   **[Google Analytics](https://gridsome.org/plugins/@gridsome/plugin-google-analytics) -** Just add your tracking ID in the config.
 *   **[Sitemap generator](https://gridsome.org/plugins/@gridsome/plugin-sitemap) -** Automatically generates a sitemap.xml file.
+*   **[Eslint](https://eslint.org/) -** ESLint statically analyzes your code to quickly find problems. Uses rules from [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base), [vue2/recommended](https://eslint.vuejs.org/user-guide/), & [prettier](https://github.com/prettier/eslint-plugin-prettier)
+*   **[Prettier](https://prettier.io/) -** Building and enforcing a style guide.
 
 ### NPM tasks
 

@@ -7,25 +7,14 @@
 module.exports = {
     siteName: 'Gridsome',
     plugins: [{
-            use: '@gridsome/plugin-google-analytics',
-            options: {
-                id: 'UA-XXXXXXXXX-X'
-            }
-        }, {
-            use: '@gridsome/plugin-sitemap',
-            options: {
-                cacheTime: 600000,
-            },
-        },
-        {
-            use: '@gridsome/source-contentful',
-            options: {
-                space: 'YOUR_SPACE', // required
-                accessToken: 'YOUR_ACCESS_TOKEN', // required
-                host: 'cdn.contentful.com',
-                environment: 'master',
-                typeName: 'Contentful'
-            }
+        use: '@gridsome/plugin-google-analytics',
+        options: {
+            id: 'UA-XXXXXXXXX-X'
         }
-    ]
+    }, {
+        use: '@gridsome/plugin-sitemap',
+        options: {
+            cacheTime: 600000,
+        },
+    }, ]
 }
