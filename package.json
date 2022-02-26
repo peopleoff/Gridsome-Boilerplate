@@ -13,12 +13,16 @@
         "gridsome": "^0.7.0"
     },
     "devDependencies": {
+        "@tailwindcss/postcss7-compat": "^2.2.17",
+        "autoprefixer": "^9.8.8",
         "eslint": "^8.2.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-prettier": "^8.4.0",
         "eslint-plugin-import": "^2.25.2",
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^8.5.0",
-        "prettier": "^2.5.1"
+        "postcss": "^7.0.39",
+        "prettier": "^2.5.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
     }
 }
